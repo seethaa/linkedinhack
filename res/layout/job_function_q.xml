@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gunmetal"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Welcome! Could you take a quick survey before we begin?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jobq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Choose your job function:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray_text" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jobq"
+        android:layout_below="@+id/jobq" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="44dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/biz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="34dp"
+                android:src="@drawable/business" />
+
+            <TextView
+                android:id="@+id/biz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Business"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="54dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/techimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/tech" />
+
+            <TextView
+                android:id="@+id/tech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Tech"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

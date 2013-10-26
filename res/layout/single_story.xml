@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="6dp"
+        android:background="@color/gunmetal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Title of Story"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/gray_text"
+                android:textStyle="bold"
+                android:color="@color/white" />
+
+            <TextView
+                android:id="@+id/subtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Medium Text"
+                android:textColor="@color/gray_text"
+                android:color="@color/gray_text" />
+
+            <ImageView
+                android:id="@+id/storypic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/zuck" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

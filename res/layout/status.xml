@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gunmetal"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/jobq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Choose your job function:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray_text" />
+
+    <ImageView
+        android:id="@+id/techimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jobq"
+        android:layout_below="@+id/jobq"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/techimg"
+        android:layout_below="@+id/techimg"
+        android:text="Tech"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray_text" />
+
+    <ImageView
+        android:id="@+id/biz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tech"
+        android:layout_alignRight="@+id/jobq"
+        android:layout_marginRight="34dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/biz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tech"
+        android:layout_alignBottom="@+id/tech"
+        android:layout_alignRight="@+id/jobq"
+        android:text="Business"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray_text" />
+
+</RelativeLayout>
