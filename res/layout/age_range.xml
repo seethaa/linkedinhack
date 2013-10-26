@@ -11,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="10dp"
-        android:text="4. Do you know anyone related/interested in your field?"
+        android:text="5. Your age"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/gray_text"
         android:textStyle="bold" />
@@ -37,57 +37,51 @@
                 android:id="@+id/checkBox5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Father"
+                android:text="Under 12 years old"
                 android:textColor="@color/gray_text" />
 
             <CheckBox
                 android:id="@+id/checkBox1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mother"
+                android:text="12-17 years old"
                 android:textColor="@color/gray_text" />
 
             <CheckBox
                 android:id="@+id/checkBox2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wife"
+                android:text="18-24 years old"
                 android:textColor="@color/gray_text" />
 
             <CheckBox
                 android:id="@+id/checkBox3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Friend"
+                android:text="25-34 years old"
                 android:textColor="@color/gray_text" />
 
             <CheckBox
                 android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Son"
+                android:text="35-44 years old"
                 android:textColor="@color/gray_text" />
 
             <CheckBox
                 android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Daughter"
+                android:text="45-54 years old"
                 android:textColor="@color/gray_text" />
 
             <CheckBox
                 android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Niece"
+                android:text="55+ years old"
                 android:textColor="@color/gray_text" />
 
-            <CheckBox
-                android:id="@+id/checkBox4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nephew"
-                android:textColor="@color/gray_text" />
         </LinearLayout>
     </LinearLayout>
 
@@ -96,7 +90,7 @@
         android:layout_height="1dp"
         android:layout_below="@+id/linearLayout1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="24dp"
         android:background="@color/gray_text" />
 
 </RelativeLayout>

@@ -21,7 +21,7 @@ public class OftenQ extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.field_interest);
 		
-		
+		 
 		malebutton = (ImageView) findViewById(R.id.menimg);
 		 
 		malebutton.setOnClickListener(new OnClickListener() {

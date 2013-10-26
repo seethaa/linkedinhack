@@ -35,6 +35,7 @@
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:src="@drawable/businessicon" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -77,16 +78,15 @@
         android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
+        android:layout_marginBottom="5dp"
         android:text="1. Choose your job function:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/gray_text" />
 
     <View
         android:layout_width="300dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="17dp"
         android:layout_height="1dp"
-        android:layout_below="@+id/linearLayout1"
+        android:layout_alignBottom="@+id/linearLayout1"
         android:layout_centerHorizontal="true"
         android:background="@color/gray_text" />
 

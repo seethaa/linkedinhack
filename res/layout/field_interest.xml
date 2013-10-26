@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="3. Field of Interest"
+        android:text="3. What are you interested in?"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/gray_text"
         android:textStyle="bold" />
@@ -67,6 +67,20 @@
                 android:layout_height="wrap_content"
                 android:text="Testing/QA"
                 android:textColor="@color/gray_text" />
+            
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health"
+                android:textColor="@color/gray_text" />
+            
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrepreneurship"
+                android:textColor="@color/gray_text" />
       
         </LinearLayout>
 
@@ -78,7 +92,7 @@
         android:layout_height="1dp"
         android:layout_below="@+id/linearLayout1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="42dp"
         android:background="@color/gray_text" />
     
 </RelativeLayout>
