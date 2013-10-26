@@ -35,33 +35,60 @@ public final class R {
     }
     public static final class drawable {
         public static final int business=0x7f020000;
-        public static final int family=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int married=0x7f020003;
-        public static final int men=0x7f020004;
-        public static final int person=0x7f020005;
-        public static final int tech=0x7f020006;
-        public static final int woman=0x7f020007;
-        public static final int zuck=0x7f020008;
+        public static final int businessicon=0x7f020001;
+        public static final int family=0x7f020002;
+        public static final int familycolor=0x7f020003;
+        public static final int female=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int male=0x7f020006;
+        public static final int married=0x7f020007;
+        public static final int men_selector=0x7f020008;
+        public static final int menchoose=0x7f020009;
+        public static final int menchose=0x7f02000a;
+        public static final int mencolor=0x7f02000b;
+        public static final int othericon=0x7f02000c;
+        public static final int others=0x7f02000d;
+        public static final int person=0x7f02000e;
+        public static final int share=0x7f02000f;
+        public static final int tech=0x7f020010;
+        public static final int tech_selector=0x7f020011;
+        public static final int techchoose=0x7f020012;
+        public static final int techcolor=0x7f020013;
+        public static final int techicon=0x7f020014;
+        public static final int zuck=0x7f020015;
     }
     public static final class id {
-        public static final int biz=0x7f080004;
-        public static final int jobq=0x7f080001;
-        public static final int linearLayout1=0x7f080002;
-        public static final int linearLayout2=0x7f080003;
-        public static final int mainLayout=0x7f080007;
-        public static final int menu_settings=0x7f08000a;
-        public static final int storypic=0x7f080009;
-        public static final int subtext=0x7f080008;
-        public static final int tech=0x7f080006;
-        public static final int techimg=0x7f080005;
+        public static final int bizimg=0x7f08000d;
+        public static final int checkBox1=0x7f080004;
+        public static final int checkBox2=0x7f080005;
+        public static final int checkBox3=0x7f080006;
+        public static final int checkBox4=0x7f080007;
+        public static final int checkBox5=0x7f080003;
+        public static final int jobq=0x7f08000c;
+        public static final int linearLayout1=0x7f080001;
+        public static final int linearLayout2=0x7f080002;
+        public static final int mainLayout=0x7f080010;
+        public static final int maletext=0x7f080009;
+        public static final int menimg=0x7f080008;
+        public static final int menu_settings=0x7f080013;
+        public static final int otherimg=0x7f08000f;
+        public static final int storypic=0x7f080012;
+        public static final int subtext=0x7f080011;
+        public static final int techimg=0x7f08000e;
         public static final int title=0x7f080000;
+        public static final int womenimg=0x7f08000a;
+        public static final int womentxt=0x7f08000b;
     }
     public static final class layout {
-        public static final int job_function_q=0x7f030000;
-        public static final int main_vert_lin_layout=0x7f030001;
-        public static final int single_story=0x7f030002;
-        public static final int status=0x7f030003;
+        public static final int divider=0x7f030000;
+        public static final int field_interest=0x7f030001;
+        public static final int frequency=0x7f030002;
+        public static final int gender=0x7f030003;
+        public static final int job_function_q=0x7f030004;
+        public static final int main_vert_lin_layout=0x7f030005;
+        public static final int related_ppl=0x7f030006;
+        public static final int single_story=0x7f030007;
+        public static final int status=0x7f030008;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;

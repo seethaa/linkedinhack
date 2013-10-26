@@ -9,7 +9,7 @@ public class MainActivity extends Activity {
 	
 	private static LinearLayout mainlayout;
  
-	@Override
+	@Override 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_vert_lin_layout);
